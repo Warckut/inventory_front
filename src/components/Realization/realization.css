@@ -1,0 +1,40 @@
+.add-icon {
+    background: url(../../icons/free-icon-plus-sign-in-a-black-circle-25340.svg) no-repeat;
+    background-size: contain;
+    width: 1.7rem;
+    height:1.7rem;
+    margin-right: .5rem;
+}
+
+.purchases {
+    padding: 2rem;
+    width: 55%;
+    /* margin: 0 auto; */
+}
+
+.purchases__title {
+    /* margin-bottom: 1.5rem; */
+}
+
+.purchases__head {
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+
+.purchases__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: .1rem;
+    font-size: 1.4rem;
+    height: 2.5rem;
+    /* width: 6.5rem; */
+    padding: 0 1rem;
+}
+
+.purchases__btn:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.table {
+    width: 100%;
+    /* margin: 0 auto; */
+    border-collapse: collapse;
+}
+
+.table__column {
+    text-align: right;
+    padding: 0 .5rem;
+}
+
+tr {
+    padding: .5rem 0;
+}
+
+tr.table__header {
+    border-bottom: 2px solid #2b75a7;
+} 
+
+.table__header th {
+    color: #2b75a7;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+tr.table__row {
+    border-bottom: 1px solid rgb(207, 207, 207);
+}

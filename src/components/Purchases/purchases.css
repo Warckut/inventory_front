@@ -1,0 +1,68 @@
+.add-icon {
+    background: url(../../icons/free-icon-plus-sign-in-a-black-circle-25340.svg) no-repeat;
+    background-size: contain;
+    width: 1.7rem;
+    height:1.7rem;
+    margin-right: .5rem;
+}
+
+.purchases-page {
+    display: flex;
+}
+
+.purchases {
+    padding: 2rem;
+    width: 55%;
+    /* width: 45rem; */
+}
+
+.purchases__head {
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+
+.purchases__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: .1rem;
+    font-size: 1.4rem;
+    height: 2.5rem;
+    /* width: 6.5rem; */
+    padding: 0 1rem;
+}
+
+.purchases__btn:hover {
+    cursor: pointer;
+}
+
+/* _____________ */
+
+.new-purchase {
+    padding: 2rem;
+    width: 45%;
+}
+
+.new-purchase__head {
+    display: flex;
+    height: 6rem;
+    align-items: center;
+}
+.new-purchase__form {
+    width: 100%;
+}
+
+.new-purchase__counterparty, 
+.new-purchase__date,
+.new-purchase__status {
+    margin-bottom: .5rem;
+}
+
+.new-purchase__counterparty select, 
+.new-purchase__date input,
+.new-purchase__status input {
+    margin-left: 2rem;
+}
